@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Training Calendar</h1>
+        <p>Stay updated with our latest training sessions and events.</p>
+    </header>
+    <main>
+        <section id="trainings">
+            <h2>Upcoming Trainings</h2>
+            <ul>
+                <li>Azure Infrastructure Expert</li>
+                <li>Azure Infrastructure Fundamentals</li>
+                <li>Azure Administrator Associate</li>
+                <li>Azure Networking Engineer Associate</li>
+                <li>Azure Solutions Architect Expert</li>
+                <li>DevOps Engineer Expert</li>
+                <li>Azure Developer Associate</li>
+                <li>Soft Skills</li>
+                <li>GitHub Knowledge</li>
+                <li>Drive Ownership while Navigating Ambiguity</li>
+                <li>Program & Project Management Fundamentals</li>
+                <li>Prompt Engineering</li>
+                <li>Empathy & Emotional Intelligence: Keys to 21st Century Work Success</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to <a href="mailto:info@yourdomain.com">email us</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
