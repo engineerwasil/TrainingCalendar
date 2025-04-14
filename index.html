@@ -1,114 +1,134 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:"Aptos Display";}
-@font-face
-	{font-family:Aptos;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:115%;
-	font-size:12.0pt;
-	font-family:"Aptos",sans-serif;}
-h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:.25in;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:20.0pt;
-	font-family:"Aptos Display",sans-serif;
-	color:#0F4761;
-	font-weight:normal;}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Aptos Display",sans-serif;
-	color:#0F4761;}
-.MsoChpDefault
-	{font-family:"Aptos",sans-serif;}
-.MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:115%;}
-@page WordSection1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
-div.WordSection1
-	{page:WordSection1;}
--->
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #0073e6;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+    </style>
 </head>
-
-<body lang=EN-US style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<h1 align=center style='text-align:center'>This is our Training Website for
-Microsoft Courses</h1>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=MsoNormal>Below are the list of published courses:</p>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=312 valign=top style='width:233.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Course</p>
-  </td>
-  <td width=312 valign=top style='width:233.75pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>Date</p>
-  </td>
- </tr>
- <tr>
-  <td width=312 valign=top style='width:233.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AZ-900</p>
-  </td>
-  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>April 5   9<sup>th</sup>
-  2025</p>
-  </td>
- </tr>
- <tr>
-  <td width=312 valign=top style='width:233.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>AZ-102</p>
-  </td>
-  <td width=312 valign=top style='width:233.75pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;line-height:normal'>May 5   9<sup>th</sup>
-  2005</p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=MsoNormal>&nbsp;</p>
-
-</div>
-
+<body>
+    <header>
+        <h1>Welcome to Our Training Calendar</h1>
+        <p>Stay updated with our latest training sessions and events.</p>
+    </header>
+    <main>
+        <section id="trainings">
+            <h2>Azure Infrastructure Expert Certification</h2>
+            <table>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Azure Infrastructure Fundamentals</td>
+                    <td>Course 1</td>
+                </tr>
+                <tr>
+                    <td>Azure Administrator Associate</td>
+                    <td>Course 2</td>
+                </tr>
+                <tr>
+                    <td>Azure Networking Engineer Associate</td>
+                    <td>Course 3</td>
+                </tr>
+                <tr>
+                    <td>Azure Solutions Architect Expert</td>
+                    <td>Course 4</td>
+                </tr>
+                <tr>
+                    <td>DevOps Engineer Expert</td>
+                    <td>Course 5</td>
+                </tr>
+                <tr>
+                    <td>Azure Developer Associate</td>
+                    <td>Course 6</td>
+                </tr>
+                <tr>
+                    <td>Soft Skills</td>
+                    <td>Course 7</td>
+                </tr>
+                <tr>
+                    <td>GitHub Knowledge</td>
+                    <td>Course 7A</td>
+                </tr>
+                <tr>
+                    <td>Drive Ownership while Navigating Ambiguity</td>
+                    <td>Course 7B</td>
+                </tr>
+                <tr>
+                    <td>Program & Project Management Fundamentals</td>
+                    <td>Course 7C</td>
+                </tr>
+                <tr>
+                    <td>Prompt Engineering</td>
+                    <td>Course 7D</td>
+                </tr>
+                <tr>
+                    <td>Empathy & Emotional Intelligence: Keys to 21st Century Work Success</td>
+                    <td>Course 7E</td>
+                </tr>
+            </table>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to <a href="mailto:info@yourdomain.com">email us</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
